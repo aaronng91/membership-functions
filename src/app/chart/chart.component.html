@@ -1,0 +1,10 @@
+<div class="chart">
+  <ng-container *ngFor="let function of functions">
+    <div class="membership-function">
+      <app-membership-function [data]="function"
+                               [lowestValue]="lowestValue"
+                               [highestValue]="highestValue"
+      ></app-membership-function>
+    </div>
+  </ng-container>
+</div>
